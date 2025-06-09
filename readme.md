@@ -15,12 +15,14 @@ A simple utility to calculate which pages to show when using the pagination comp
 npm install govuk-pagination-module
 ```
 
+Alternatively you can copy the javascript code to your prototype repo, keeping it in the `/app` folder.
+
 ## Usage
 
-You can import this into your routes.js file using the following code:
+You can import this into your `routes.js` file using the following code:
 
 ```js
-import { createGOVUKPagination } from './index.js';
+const { createGOVUKPagination } = require('govuk-pagination-module');
 
 const pagination = createGOVUKPagination(3, {
   numPages: 10,
@@ -31,7 +33,13 @@ const pagination = createGOVUKPagination(3, {
 console.log(pagination);
 ```
 
-If your URL is more complex than adding the page number to the URL then you can supply an array of URLs in the order you want the pages to appear.
+If you have installed this locally then use this code to import the module:
+
+```js
+const { createGOVUKPagination } = require('./govuk-pagination-module.js');
+```
+
+If your URL is more complex than adding the page number to the URL then you can supply an array of URLs in the order you want the pages to appear:
 
 ```js
 const hrefs = [
