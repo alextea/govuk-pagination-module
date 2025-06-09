@@ -1,0 +1,19 @@
+{
+  "name": "govuk-pagination-module",
+  "version": "1.0.0",
+  "description": "Calculates which pages to show when using the pagination component from the GOV.UK Design System.",
+  "homepage": "https://github.com/alextea/govuk-pagination-module#readme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "govuk",
+    "prototype",
+    "design system",
+    "pagination"
+  ],
+  "author": "Alex Torrance <hello@alextorrance.co.uk>",
+  "license": "MIT"
+}
