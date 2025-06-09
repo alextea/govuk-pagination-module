@@ -72,8 +72,7 @@ You can send the output pagination object to your template and use the following
 #### Options
 
 - `numPages` (`number`): Total number of pages (required if `hrefArray` not provided).
-- `pathBase` (`string`, default: `"/"`): Base path for URLs.
-- `pathEnd` (`string`, default: `"?page="`): The URL suffix before the page number.
+- `pathBase` (`string`, default: `"/?page="`): Base path for URLs.
 - `pageBuffer` (`number`, default: `2`): Number of pages to show around the current page.
 - `hrefArray` (`string[]`, default: `null`): Array of URLs for each page.
 

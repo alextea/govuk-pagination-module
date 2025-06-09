@@ -1,6 +1,6 @@
 {
   "name": "govuk-pagination-module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Calculates which pages to show when using the pagination component from the GOV.UK Design System.",
   "homepage": "https://github.com/alextea/govuk-pagination-module#readme",
   "main": "index.js",
